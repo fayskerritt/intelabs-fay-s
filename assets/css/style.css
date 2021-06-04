@@ -1,0 +1,45 @@
+body {
+    background-color: #000e27;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Main Content */
+
+.hero-text {
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -3.43px;
+}
+
+.hero-subtext {
+    color: #82e088;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.coming-soon-text {
+    color: #bac2cf;
+    font-size: 20px;
+    line-height: 1.35;
+}
+
+/* Footer */
+
+.footer-text {
+    color: #bac2cf;
+    font-size: 13px;
+    line-height: 2.077;
+    padding-right: 20px;
+}
+
+.privacy-link {
+    color: #fff;
+    text-decoration-color: #82e088;
+    font-size: 13px;
+    line-height: 2.077;
+    padding-left: 10.5px;
+}
