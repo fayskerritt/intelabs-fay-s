@@ -33,6 +33,7 @@ section {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -3.43px;
+    margin-top: 12vh;
 }
 
 .hero-subtext {
@@ -40,6 +41,8 @@ section {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.35;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .green-button {
@@ -75,10 +78,24 @@ button svg {
     margin-bottom: 3vh;
 }
 
-.coming-soon-text {
-    color: #bac2cf;
-    font-size: 20px;
-    line-height: 1.35;
+.privacy-policy {
+    color: #fff;
+    padding: 10px;
+}
+
+.privacy-policy h1 {
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -3.43px;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.overlay {
+    background-color: rgba(0, 14, 39, 0.8);
 }
 
 /* Footer */
@@ -107,6 +124,11 @@ footer {
     padding-left: 10.5px;
 }
 
+.privacy-link:hover,
+.privacy-link:focus {
+    color: #82e088;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 992px) {
@@ -115,6 +137,10 @@ footer {
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: 100%;
+    }
+
+    section {
+        margin-left: 0;
     }
 
     .logo {
@@ -143,9 +169,13 @@ footer {
         width: 90%;
         margin-right: 0;
     }
+
+    footer {
+        padding-left: 0;
+    }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
     .hero-text {
         font-size: 70px;
     }    
@@ -155,4 +185,14 @@ footer {
     .hero-text {
         font-size: 74px;
     }    
+}
+
+@media only screen and (min-width: 1201px) {
+    section {
+        margin-left: 140px;
+    }
+    
+    footer {
+        padding-left: 140px;
+    }
 }
