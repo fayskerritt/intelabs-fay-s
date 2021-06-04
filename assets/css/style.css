@@ -11,6 +11,14 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+/* Header */
+
+.logo {
+    width: 171px;
+    margin-top: 70px;
+    margin-left: 95px;
+}
+
 /* Main Content */
 
 .hero-text {
@@ -27,6 +35,39 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.35;
+}
+
+.green-button {
+    border-radius: 0;
+    border: none;
+    background-color: #82e088;
+    color: #000e27;
+    font-size: 17px;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.register-form input {
+    height: 50px;
+    width: 51%;
+    border-radius: 0;
+    border: none;
+    margin-right: 10px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3) inset;
+}
+
+button svg {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.coming-soon-text {
+    color: #bac2cf;
+    font-size: 20px;
+    line-height: 1.35;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .coming-soon-text {
@@ -62,6 +103,11 @@ body {
         background-size: 100%;
     }
 
+    .logo {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
     .hero-text {
         font-size: 30px;
         letter-spacing: -1px;
@@ -72,6 +118,16 @@ body {
     .hero-subtext {
         font-size: 16px;
         width: 90%;
+    }
+
+    .green-button {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .register-form input {
+        width: 90%;
+        margin-right: 0;
     }
 }
 
