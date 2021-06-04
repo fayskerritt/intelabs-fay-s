@@ -11,6 +11,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+section {
+    margin-left: 95px;
+    padding-bottom: 60px;
+}
+
 /* Header */
 
 .logo {
@@ -77,6 +82,15 @@ button svg {
 }
 
 /* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-bottom: 20px;
+    padding-left: 95px;
+}
 
 .footer-text {
     color: #bac2cf;
