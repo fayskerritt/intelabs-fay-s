@@ -19,7 +19,6 @@ To build a landing page using the following designs:
 
 
 #### Questions/Notes for Designer:
-- There is different text on the desktop design to the mobile and tablet designs. It has been built to match exactly the designs
-- The font on the desktop design states it is 'Space Grotesk', but visually it is not
+- There is different text on the desktop design to the mobile and tablet designs. It has been built to match exactly the designs but can easily be changed to one or the other
+- The font on the desktop design states it is 'Space Grotesk', but visually it is not, Space Grotesk has been used for consistency
 - Requires the form action to be completed to register users' email address
-
